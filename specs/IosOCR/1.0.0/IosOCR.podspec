@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
 
   s.source       = { :http => "https://white-label-sdks-sandbox.s3.amazonaws.com/ios/IosOCR/1-0-0-IosOCR.xcframework.zip"}
-  s.vendored_frameworks = 'build/IosOCR.xcframework'
+  s.vendored_frameworks = 'IosOCR.xcframework'
   s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'DatadogSDK'
 
