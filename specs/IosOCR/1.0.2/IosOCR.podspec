@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://white-label-sdks-sandbox.s3.amazonaws.com/ios/IosOCR/1-0-2-IosOCR.xcframework.zip"}
   s.vendored_frameworks = 'IosOCR.xcframework'
   s.dependency 'GoogleMLKit/FaceDetection'
-  s.dependency 'DatadogSDK'
+  s.dependency 'DatadogSDK', '= 1.11.1'
 
   s.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = {
