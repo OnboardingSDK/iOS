@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-    s.name         = "IosOnboardingSdk"
-    s.summary      = "IosOnboardingSdk"
+    s.name         = "IosBundle"
+    s.summary      = "IosBundle"
     s.version      = "2.0.0"
-    s.summary      = "IosOnboardingSdk"
+    s.summary      = "IosBundle"
   
     s.homepage     = "https://github.com/OnboardingSDK/iOS"
     s.license      = { :type => 'ProprietarySoftware'}
