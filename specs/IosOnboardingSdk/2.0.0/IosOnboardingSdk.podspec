@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = "9.0"
   
     s.source       = { :http => "https://white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosOnboardingSdk/2-0-0-IosBundle.xcframework.zip"}
-    s.vendored_frameworks = 'IosOnboardingSdk.xcframework'
+    s.vendored_frameworks = 'IosBundle.xcframework'
     s.dependency 'IosDeviceScan', '= 1.0.0'
     s.dependency 'IosFaceRecon', '= 2.1.0'
     s.dependency 'IosOCR', '= 2.0.0'
