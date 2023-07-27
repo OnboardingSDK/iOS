@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-    s.name         = "IosOCR"
-    s.summary      = "IosOCR"
+    s.name         = "IosOnboardingSdk"
+    s.summary      = "IosOnboardingSdk"
     s.version      = "2.0.0"
-    s.summary      = "IosOCR"
+    s.summary      = "IosOnboardingSdk"
   
     s.homepage     = "https://github.com/OnboardingSDK/iOS"
     s.license      = { :type => 'ProprietarySoftware'}
@@ -13,10 +13,11 @@ Pod::Spec.new do |s|
     s.watchos.deployment_target = "3.0"
     s.tvos.deployment_target = "9.0"
   
-    s.source       = { :http => "https://white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosOCR/2-0-0-IosOCR.xcframework.zip"}
-    s.vendored_frameworks = 'IosOCR.xcframework'
-    s.dependency 'GoogleMLKit/FaceDetection', '=3.2.0'
-    s.dependency 'DatadogSDK', '= 1.11.1'
+    s.source       = { :http => "https://white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosOnboardingSdk/2-0-0-IosBundle.xcframework.zip"}
+    s.vendored_frameworks = 'IosOnboardingSdk.xcframework'
+    s.dependency 'IosDeviceScan', '= 1.0.0'
+    s.dependency 'IosFaceRecon', '= 2.1.0'
+    s.dependency 'IosOCR', '= 2.0.0'
   
     s.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.pod_target_xcconfig = {

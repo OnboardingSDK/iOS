@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.watchos.deployment_target = "2.0"
     s.tvos.deployment_target = "9.0"
   
-    s.source       = { :http => "https://white-label-sdks-sandbox.s3.amazonaws.com/ios/IosFaceRecon/2-1-0-IosFaceRecon.xcframework.zip" }
+    s.source       = { :http => "https://white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosFaceRecon/2-1-0-IosFaceRecon.xcframework.zip" }
     s.vendored_frameworks = 'IosFaceRecon.xcframework'
     s.dependency 'GoogleMLKit/FaceDetection', '=3.2.0'
     s.dependency 'DatadogSDK', '= 1.11.1'
