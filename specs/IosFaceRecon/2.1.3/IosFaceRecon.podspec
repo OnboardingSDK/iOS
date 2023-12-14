@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = "IosFaceRecon"
     s.summary      = "IosFaceRecon"
-    s.version      = "2.1.2"
+    s.version      = "2.1.3"
     s.summary      = "IosFaceRecon"
   
     s.homepage     = "https://github.com/OnboardingSDK/iOS"
