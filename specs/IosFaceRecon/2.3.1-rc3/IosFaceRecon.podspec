@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/OnboardingSDK/iOS"
     s.license      = { :type => 'ProprietarySoftware'}
     s.author       = { 'onboardingsdk@gmail.com' => 'onboardingsdk@gmail.com' }
-    s.source       = { :http => "https://onboarding-white-label-sdks.sandbox.zaig.com.br/com/onboarding/ios/IosFaceRecon/2.3.1-rc3/IosFaceRecon.xcframework.zip" }
+    s.source       = { :http => "https://onboarding-white-label-sdks-sandbox.s3.amazonaws.com/com/onboarding/ios/IosFaceRecon/2.3.1-rc3/IosFaceRecon.xcframework.zip" }
     s.vendored_frameworks = "IosFaceRecon.xcframework"
     s.platform     = :ios
     s.swift_version = "5"
