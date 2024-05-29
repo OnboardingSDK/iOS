@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage               = "https://github.com/OnboardingSDK/iOS"
   s.license                = { :type => 'ProprietarySoftware'}
   s.author                 = { 'onboardingsdk@gmail.com' => 'onboardingsdk@gmail.com' }
-  s.source                 = { :http => "https://white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosDeviceScan/1.3.6/IosDeviceScan.xcframework.zip" }
+  s.source                 = { :http => "https://onboarding-white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosDeviceScan/1.3.6/IosDeviceScan.xcframework.zip" }
   s.vendored_frameworks    = "IosDeviceScan.xcframework"
   s.platform               = :ios
   s.swift_version          = "5"
