@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework       = true
 
   s.source                = { :http => "https://onboarding-white-label-sdks-production.s3.amazonaws.com/com/onboarding/ios/IosBundle/2.0.6/IosBundle.xcframework.zip" }
-  s.vendored_frameworks   = 'build/IosBundle.xcframework'
+  s.vendored_frameworks   = 'IosBundle.xcframework'
   s.dependency 'IosDeviceScan', '= 1.3.6'
   s.dependency 'IosFaceRecon', '= 2.3.1'
   s.dependency 'IosOCR', '= 2.0.1-alpha1'
