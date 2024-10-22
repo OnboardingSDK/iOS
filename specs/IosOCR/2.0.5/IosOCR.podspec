@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.swift_version         = "5"
   s.ios.deployment_target = '12.0'
   s.dependency 'GoogleMLKit/FaceDetection', '>= 3.2.0', '<= 6.0.0'
-  s.dependency 'DatadogCore', '= 2.7.1'
-  s.dependency 'DatadogCrashReporting', '= 2.7.1'
-  s.dependency 'DatadogLogs', '= 2.7.1'
+  s.dependency 'DatadogCore', '= 2.18.0'
+  s.dependency 'DatadogCrashReporting', '= 2.18.0'
+  s.dependency 'DatadogLogs', '= 2.18.0'
   s.static_framework      = true
 
   s.user_target_xcconfig = {
