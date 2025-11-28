@@ -11,9 +11,6 @@ Pod::Spec.new do |s|
   s.swift_version = "5"
   s.ios.deployment_target  = '15.5'
   s.dependency 'GoogleMLKit/FaceDetection', '~> 8.0'
-  s.dependency 'DatadogCore', '~> 2.0'
-  s.dependency 'DatadogCrashReporting', '~> 2.0'
-  s.dependency 'DatadogLogs', '~> 2.0'
 
   s.user_target_xcconfig = {
     'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
